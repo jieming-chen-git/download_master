@@ -1,0 +1,12 @@
+Package: libpar2
+Architecture: arm
+Priority: optional
+Section: libs
+Version: 0.2-6
+Maintainer: NSLU2 Linux <nslu2-linux@yahoogroups.com>
+Source: http://downloads.sourceforge.net/sourceforge/parchive/libpar2-0.2.tar.gz
+Description: A library for performing common tasks related to PAR recovery sets
+Depends: uclibc-opt, libsigc++
+Suggests: 
+Conflicts: 
+Installed-Size: 438272

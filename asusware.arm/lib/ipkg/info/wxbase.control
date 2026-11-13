@@ -1,0 +1,11 @@
+Package: wxbase
+Architecture: arm
+Priority: optional
+Section: libs
+Version: 2.8.12-1
+Maintainer: Gorion <mail4tmp@gmail.com>
+Source: http://downloads.sourceforge.net/sourceforge/wxwindows/wxWidgets-2.8.12.tar.bz2
+Description: wxbase is a basic (non-windows) part of wxWidget toolkit
+Depends: uclibc-opt, libstdc++, expat, zlib
+Conflicts: 
+Installed-Size: 3698688

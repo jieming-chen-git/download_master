@@ -1,0 +1,12 @@
+Package: ipkg-opt
+Architecture: arm
+Priority: optional
+Section: base
+Version: 0.99.163-11
+Maintainer: NSLU2 Linux <nslu2-linux@yahoogroups.com>
+Source: http://ftp.osuosl.org/pub/nslu2/sources/ipkg-opt-0.99.163.tar.gz
+Description: The Itsy Package Manager
+Depends: uclibc-opt
+Suggests: 
+Conflicts: ipkg-static
+Installed-Size: 208896

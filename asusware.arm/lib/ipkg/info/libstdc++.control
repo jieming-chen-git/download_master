@@ -1,0 +1,11 @@
+Package: libstdc++
+Architecture: arm
+Priority: optional
+Section: util
+Version: 6.0.21-6
+Maintainer: NSLU2 Linux <nslu2-linux@yahoogroups.com>
+Source: /
+Description: Standard C++ library, needed for dynamically linked C++ programs
+Depends: uclibc-opt
+Conflicts: 
+Installed-Size: 974848

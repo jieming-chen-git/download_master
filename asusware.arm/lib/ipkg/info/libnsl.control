@@ -1,0 +1,11 @@
+Package: libnsl
+Architecture: arm
+Priority: optional
+Section: util
+Version: 1.0.15-1
+Maintainer: NSLU2 Linux <nslu2-linux@yahoogroups.com>
+Source: /
+Description: Network Services Library
+Depends: 
+Conflicts: uclibc
+Installed-Size: 16384

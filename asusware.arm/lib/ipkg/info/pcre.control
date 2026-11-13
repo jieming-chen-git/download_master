@@ -1,0 +1,11 @@
+Package: pcre
+Architecture: arm
+Priority: optional
+Section: util
+Version: 8.36-1
+Maintainer: NSLU2 Linux <nslu2-linux@yahoogroups.com>
+Source: http://downloads.sourceforge.net/sourceforge/pcre/pcre-8.36.tar.bz2
+Description: Perl-compatible regular expression library
+Depends: uclibc-opt, libstdc++
+Conflicts: 
+Installed-Size: 749568

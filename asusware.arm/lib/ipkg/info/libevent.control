@@ -1,0 +1,11 @@
+Package: libevent
+Architecture: arm
+Priority: optional
+Section: libs
+Version: 2.0.20-2
+Maintainer: Jean-Fabrice <jeanfabrice@users.sourceforge.net>
+Source: https://github.com/downloads/libevent/libevent/libevent-2.0.20-stable.tar.gz
+Description: libevent to implement an event loop
+Depends: uclibc-opt
+Conflicts: 
+Installed-Size: 987136

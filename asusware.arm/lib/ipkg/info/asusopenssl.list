@@ -1,0 +1,11 @@
+/opt/tmp/
+/opt/tmp/share/
+/opt/tmp/share/openssl/
+/opt/tmp/share/openssl/openssl.cnf
+/opt/tmp/lib/
+/opt/tmp/lib/libcrypto.so
+/opt/tmp/lib/libcrypto.so.1.0.0
+/opt/tmp/lib/libssl.so
+/opt/tmp/lib/libssl.so.1.0.0
+/opt/tmp/bin/
+/opt/tmp/bin/openssl

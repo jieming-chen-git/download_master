@@ -1,0 +1,12 @@
+Package: uclibc-opt
+Architecture: arm
+Priority: required
+Section: base
+Version: 1.0.15-1
+Maintainer: leon.kos@amis.net
+Source: /buildroot-svn-17310.tar.gz
+Description: micro C library for embedded Linux systems
+Depends: libnsl
+Suggests: 
+Conflicts: 
+Installed-Size: 1044480

@@ -1,0 +1,11 @@
+Package: zlib
+Architecture: arm
+Priority: optional
+Section: libs
+Version: 1.2.8-2
+Maintainer: NSLU2 Linux <nslu2-linux@yahoogroups.com>
+Source: http://downloads.sourceforge.net/sourceforge/libpng/zlib-1.2.8.tar.gz
+Description: zlib is a library implementing the 'deflate' compression system.
+Depends: uclibc-opt
+Conflicts: 
+Installed-Size: 217088

@@ -1,0 +1,126 @@
+Package: libnsl
+Version: 1.0.15-1
+Conflicts: uclibc
+Status: install ok installed
+Architecture: arm
+
+Package: libstdc++
+Version: 6.0.21-6
+Depends: uclibc-opt
+Status: install user installed
+Architecture: arm
+Installed-Time: 1467624332
+
+Package: uclibc-opt
+Version: 1.0.15-1
+Depends: libnsl
+Status: install user installed
+Architecture: arm
+Installed-Time: 1466488941
+
+
+Package: asusopenssl
+Version: 9.1.0.2u.v002
+Status: install user installed
+Architecture: arm
+
+Package: zlib
+Version: 1.2.8-2
+Depends: uclibc-opt
+Status: install user installed
+Architecture: arm
+
+Package: asuslibcurl
+Version: 7.58.0-1
+Depends: zlib
+Status: install user installed
+Architecture: arm
+
+Package: libevent
+Version: 2.0.20-2
+Depends: uclibc-opt
+Status: install user installed
+Architecture: arm
+
+Package: ncurses-base
+Version: 5.7-8
+Status: install user installed
+Architecture: arm
+
+Package: ncurses
+Version: 5.7-8
+Depends: uclibc-opt, ncurses-base
+Status: install user installed
+Architecture: arm
+
+Package: libxml2
+Version: 2.7.8-1
+Depends: uclibc-opt, zlib (>=1.2.5)
+Status: install user installed
+Architecture: arm
+
+Package: libsigc++
+Version: 2.4.1-1
+Depends: uclibc-opt, libstdc++
+Status: install user installed
+Architecture: arm
+
+Package: libpar2
+Version: 0.2-6
+Depends: uclibc-opt, libsigc++
+Status: install user installed
+Architecture: arm
+
+Package: pcre
+Version: 8.36-1
+Depends: uclibc-opt, libstdc++
+Status: install user installed
+Architecture: arm
+
+Package: spawn-fcgi
+Version: 1.6.3-1
+Depends: uclibc-opt
+Status: install user installed
+Architecture: arm
+
+Package: bzip2
+Version: 1.0.6-2
+Depends: uclibc-opt
+Status: install user installed
+Architecture: arm
+
+Package: libiconv
+Version: 1.13.1-1
+Depends: uclibc-opt
+Status: install user installed
+Architecture: arm
+
+Package: readline
+Version: 6.1-2
+Depends: uclibc-opt, ncurses
+Status: install user installed
+Architecture: arm
+
+Package: expat
+Version: 2.2.0-1
+Depends: uclibc-opt
+Status: install user installed
+Architecture: arm
+
+Package: wxbase
+Version: 2.8.12-1
+Depends: uclibc-opt, libstdc++, expat, zlib
+Status: install user installed
+Architecture: arm
+
+Package: asuslighttpd
+Version: 3.1.0.112
+Depends: uclibc-opt,zlib,pcre,libstdc++,spawn-fcgi,bzip2
+Status: install user installed
+Architecture: arm
+
+Package: downloadmaster
+Version: 3.1.0.114
+Depends: asuslighttpd,wxbase,readline
+Status: install user installed
+Architecture: arm

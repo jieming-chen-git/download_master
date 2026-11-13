@@ -1,0 +1,322 @@
+Package: DM2_Utility
+Version: 2.2.3.4
+Depends: 
+OptionalUtility: 2.1.0.0+
+Section: net
+Architecture: arm
+Maintainer: ASUS
+Size: 
+Filename: DM2_2234.zip
+Source: http://nw-dlcdnet.asus.com/asusware/arm/stable
+Description: Download tools
+URL: 
+
+Package: asuslighttpd
+Version: 3.1.0.112
+Depends: pcre, zlib, libstdc++, spawn-fcgi, bzip2
+OptionalUtility: 1.0.0.2
+Section: net
+Architecture: arm
+Maintainer: ASUS
+Size: 315309
+Filename: asuslighttpd_3.1.0.112_arm_new.ipk
+Source: http://dlcdnet.asus.com/pub/ASUS/wireless/ASUSWRT
+Description: 
+URL: 
+
+Package: downloadmaster
+Version: 3.1.0.114
+Depends: zlib, libevent, ncurses, libxml2, libstdc++, libsigc++, libpar2, pcre, spawn-fcgi, readline, asuslighttpd, wxbase, libiconv
+OptionalUtility: 1.0.0.2+
+Section: net
+Architecture: arm
+Maintainer: ASUS
+Size: 3059768
+Filename: downloadmaster_3.1.0.114_arm_new.ipk
+Source: http://dlcdnet.asus.com/pub/ASUS/wireless/ASUSWRT
+Description: Download tools
+URL: http://www.asusnetwork.net:8081/downloadmaster/index.asp
+
+
+Package: aicloud
+Version: 2.0.1.2.0.gac88eb3
+Depends: uclibc-opt,pcre,sqlite,libxml2,openssl
+OptionalUtility: 1.0.0.2
+Section: net
+Architecture: arm
+Maintainer: ASUS
+Size: 4722371
+Filename: aicloud_2.0.1.2.0.gac88eb3_arm.ipk
+Source: http://dlcdnet.asus.com/pub/ASUS/wireless/ASUSWRT
+Description: 
+URL: http://www.asusnetwork.net:8081/cloudui/Setting.asp
+
+
+Package: smartsync
+Version: 1.0.0.12.4e14188
+Depends: inotify,asuswebstorage,webdavclient
+OptionalUtility: 1.0.0.2
+Section: net
+Architecture: arm
+Maintainer: ASUS
+Size: 2788
+Filename: smartsync_1.0.0.12.4e14188_arm.ipk
+Source: http://dlcdnet.asus.com/pub/ASUS/wireless/ASUSWRT
+Description: 
+URL: http://www.asusnetwork.net:8081/cloudui/Setting.asp
+
+
+Package: asuswebstorage
+Version: 1.0.0.11.0.g4e14188
+Depends: uclibc-opt,libcurl,openssl,libxml2,zlib
+OptionalUtility: 1.0.0.2
+Section: net
+Architecture: arm
+Maintainer: ASUS
+Size: 62124
+Filename: asuswebstorage_1.0.0.11.0.g4e14188_arm.ipk
+Source: http://dlcdnet.asus.com/pub/ASUS/wireless/ASUSWRT
+Description: 
+URL: http://www.asusnetwork.net:8081/cloudui/Setting.asp
+
+
+Package: inotify
+Version: 1.0.0.7.0.g4e14188
+Depends: uclibc-opt
+OptionalUtility: 1.0.0.2
+Section: net
+Architecture: arm
+Maintainer: ASUS
+Size: 11328
+Filename: inotify_1.0.0.7.0.g4e14188_arm.ipk
+Source: http://dlcdnet.asus.com/pub/ASUS/wireless/ASUSWRT
+Description: 
+URL: http://www.asusnetwork.net:8081/cloudui/Setting.asp
+
+
+Package: webdavclient
+Version: 1.0.0.10.0.g4e14188
+Depends: openssl,libxml2,zlib
+OptionalUtility:
+Section: net
+Architecture: arm
+Maintainer: ASUS
+Size: 109978
+Filename: webdavclient_1.0.0.10.0.g4e14188_arm.ipk
+Source: http://dlcdnet.asus.com/pub/ASUS/wireless/ASUSWRT
+Description: Cloud client
+URL: http://www.asusnetwork.net/cloud_sync.asp
+
+
+Package: asusopenssl
+Version: 9.1.0.2u.v002
+Section: libs
+Architecture: arm
+Maintainer: NSLU2 Linux <nslu2-linux@yahoogroups.com>
+Size: 1114956
+Filename: asusopenssl_9.1.0.2u.v002_arm.ipk
+Source: http://www.openssl.org/source/openssl-1.0.2u.tar.gz
+Description: Openssl provides the ssl implementation in libraries libcrypto and libssl, and is needed by many other applications and libraries.
+
+
+Package: asuslibcurl
+Version: 7.58.0-1
+Depends:  zlib
+Section: libs
+Architecture: arm
+Maintainer: NSLU2 Linux <nslu2-linux@yahoogroups.com>
+Size: 230793
+Filename: asuslibcurl_7.58.0-1_arm_new.ipk
+Source: http://curl.haxx.se/download/curl-7.24.0.tar.gz
+Description: Curl is a command line tool for transferring files with URL syntax, supporting FTP, FTPS, HTTP, HTTPS, GOPHER, TELNET, DICT, FILE and LDAP. Curl supports HTTPS certificates, HTTP POST, HTTP PUT, FTP uploading, kerberos, HTTP form based upload, proxies, cookies, user+password authentication, file transfer resume, http proxy tunneling and a busload of other useful tricks.
+
+Package: ncurses-base
+Version: 5.7-8
+Section: net
+Architecture: arm
+Maintainer: Christopher Blunck <christopher.blunck@gmail.com>
+MD5Sum: a10e6e52ac2c4974ee0df3f130d32927
+Size: 502997
+Filename: ncurses-base_5.7-8_arm_new.ipk
+Source: ftp://invisible-island.net/ncurses/ncurses-5.7.tar.gz
+Description: NCurses libraries
+
+Package: ncurses
+Version: 5.7-8
+Section: net
+Architecture: arm
+Maintainer: Christopher Blunck <christopher.blunck@gmail.com>
+Size: 686
+Filename: ncurses_5.7-8_arm_new.ipk
+Source: ftp://invisible-island.net/ncurses/ncurses-5.7.tar.gz
+Description: NCurses libraries
+
+Package: wxbase
+Version: 2.8.12-2
+Depends: uclibc-opt, libstdc++, expat, zlib
+Section: libs
+Architecture: arm
+Maintainer: Gorion <mail4tmp@gmail.com>
+MD5Sum: 83ad3eec4af286c0ba3168bc8aa7e28c
+SHA256sum: c5e486067271727ce300693a433579301363d0bb1afe7cc6468f07ed4e76b4a3
+Size: 920789
+Installed-Size: 3698688
+Filename: wxbase_2.8.12-2_arm_new.ipk
+Source: http://downloads.sourceforge.net/sourceforge/wxwindows/wxWidgets-2.8.12.tar.bz2
+Description: wxbase is a basic (non-windows) part of wxWidget toolkit
+
+Package: expat
+Version: 2.2.0-1
+Depends: uclibc-opt
+Section: libraries
+Architecture: arm
+Maintainer: NSLU2 Linux <nslu2-linux@yahoogroups.com>
+MD5Sum: 27316c8d366c04f434c11f16f5391319
+SHA256sum: b9ed07c56fd680d0242c6face5c2ed50891440243d451822409944d1c8441a03
+Size: 64680
+Installed-Size: 196608
+Filename: expat_2.2.0-1_arm_new.ipk
+Source: http://downloads.sourceforge.net/sourceforge/expat/expat-2.2.0.tar.bz2
+Description: XML Parser library
+
+Package: pcre
+Version: 8.36-1
+Depends: uclibc-opt, libstdc++
+Section: util
+Architecture: arm
+Maintainer: NSLU2 Linux <nslu2-linux@yahoogroups.com>
+MD5Sum: 0bf7b169276725f8f929c635f90e00f1
+SHA256sum: bae3eaed45645c0429f93e03744cb28653ebbf206faf1425c646bdae4cb8937a
+Size: 267933
+Installed-Size: 749568
+Filename: pcre_8.36-1_arm_new.ipk
+Source: http://downloads.sourceforge.net/sourceforge/pcre/pcre-8.36.tar.bz2
+Description: Perl-compatible regular expression library
+
+Package: zlib
+Version: 1.2.8-2
+Depends: uclibc-opt
+Section: libs
+Architecture: arm
+Maintainer: NSLU2 Linux <nslu2-linux@yahoogroups.com>
+MD5Sum: dafef907fd66500ba5508709dc354e34
+SHA256sum: 369b24c15717d2b151ad8a2e002ffcadd3b710f1b95461890374c4053a3d42dc
+Size: 81540
+Installed-Size: 217088
+Filename: zlib_1.2.8-2_arm_new.ipk
+Source: http://downloads.sourceforge.net/sourceforge/libpng/zlib-1.2.8.tar.gz
+Description: zlib is a library implementing the 'deflate' compression system.
+
+Package: spawn-fcgi
+Version: 1.6.3-1
+Depends: uclibc-opt
+Section: utils
+Architecture: arm
+Maintainer: NSLU2 Linux <nslu2-linux@yahoogroups.com>
+MD5Sum: 039c46952e1765a38664a2fa9ce24ce2
+SHA256sum: c2f98b4bdbab48bd5241ad6ea37f217f21fa744e0bf04023350b095e655b2684
+Size: 7934
+Installed-Size: 40960
+Filename: spawn-fcgi_1.6.3-1_arm_new.ipk
+Source: http://www.lighttpd.net/download/spawn-fcgi-1.6.3.tar.bz2
+Description: spawn-fcgi is used to spawn fastcgi applications
+
+Package: libevent
+Version: 2.0.20-2
+Depends: uclibc-opt
+Section: libs
+Architecture: arm
+Maintainer: Jean-Fabrice <jeanfabrice@users.sourceforge.net>
+MD5Sum: a163bb2b839f67e1eb6cb593994758fa
+SHA256sum: d34b8b295170b33c318a180e7a8bfc32df82aa538fd21d0dd1fae0759996694d
+Size: 322775
+Installed-Size: 987136
+Filename: libevent_2.0.20-2_arm_new.ipk
+Source: https://github.com/downloads/libevent/libevent/libevent-2.0.20-stable.tar.gz
+Description: libevent to implement an event loop
+
+Package: bzip2
+Version: 1.0.6-2
+Depends: uclibc-opt
+Section: compression
+Architecture: arm
+Maintainer: Christopher Blunck <christopher.blunck@gmail.com>
+MD5Sum: d05061902dd0f66a03aa61bc958d9952
+SHA256sum: 464c517263ae5b05b914f81ebb32befefa62e1adcbdcd8c33351660663664402
+Size: 110309
+Installed-Size: 331776
+Filename: bzip2_1.0.6-2_arm_new.ipk
+Source: http://www.bzip.org/1.0.6/bzip2-1.0.6.tar.gz
+Description: Very high-quality data compression program
+
+Package: libxml2
+Version: 2.7.8-1
+Depends: uclibc-opt, zlib (>=1.2.5)
+Section: libs
+Architecture: arm
+Maintainer: NSLU2 Linux <nslu2-linux@yahoogroups.com>
+MD5Sum: 62e549d29322ac9f07896cb0b9559f9f
+SHA256sum: 275d85e1cd341747c4a6bb2de67e725a44f6b078c133049d10822a1e26303f92
+Size: 926015
+Installed-Size: 4587520
+Filename: libxml2_2.7.8-1_arm_new.ipk
+Source: ftp://xmlsoft.org/libxml2/libxml2-2.7.8.tar.gz
+Description: Libxml2 is the XML C parser and toolkit developed for the Gnome project.
+
+Package: libsigc++
+Version: 2.4.1-1
+Depends: uclibc-opt, libstdc++
+Section: libs
+Architecture: arm
+Maintainer: NSLU2 Linux <nslu2-linux@yahoogroups.com>
+MD5Sum: 601cf529d01a67e0936d129af695f3b1
+SHA256sum: 75fe3f06cfea73638b8c4a2cb07cf8179555dd8bd0d9c61a70d3fd010d990cf3
+Size: 6774
+Installed-Size: 24576
+Filename: libsigc++_2.4.1-1_arm_new.ipk
+Source: http://ftp.gnome.org/pub/GNOME/sources/libsigc++/2.4/libsigc++-2.4.1.tar.xz
+Description: libsigc++ implements a typesafe callback system for standard C++.
+
+Package: libpar2
+Version: 0.2-6
+Depends: uclibc-opt, libsigc++
+Section: libs
+Architecture: arm
+Maintainer: NSLU2 Linux <nslu2-linux@yahoogroups.com>
+MD5Sum: 32816664f83db9e7b3fb0892afed8c49
+SHA256sum: 83f3144c1a536438f790bc8e1006b49ef4055d8bd0638941f019240cc2c3defc
+Size: 134317
+Installed-Size: 438272
+Filename: libpar2_0.2-6_arm_new.ipk
+Source: http://downloads.sourceforge.net/sourceforge/parchive/libpar2-0.2.tar.gz
+Description: A library for performing common tasks related to PAR recovery sets
+
+Package: readline
+Version: 6.1-2
+Depends: uclibc-opt, ncurses
+Section: misc
+Architecture: arm
+Maintainer: NSLU2 Linux <nslu2-linux@yahoogroups.com>
+MD5Sum: 3b55ff4ed6dd33ad507af3664e2397f9
+SHA256sum: 4b6bf9c4bcd49a4d50a08d12118897dc1e008b58ee9995b335ce5804d4c8934b
+Size: 232950
+Installed-Size: 765952
+Filename: readline_6.1-2_arm_new.ipk
+Source: http://ftp.gnu.org/pub/gnu/readline/readline-6.1.tar.gz
+Description: The GNU Readline library provides a set of functions for use by applications that allow users to edit command lines as they are typed in
+
+Package: libiconv
+Version: 1.13.1-1
+Depends: uclibc-opt
+Section: lib
+Architecture: arm
+Maintainer: NSLU2 Linux <nslu2-linux@yahoogroups.com>
+MD5Sum: 7ecc5a353f3b969863dad255ccf5d040
+SHA256sum: 8f60db4e2692f0814ed12898ccfa75361fc5cfb42851d61d11838e35bcdd8b63
+Size: 1361978
+Installed-Size: 2007040
+Filename: libiconv_1.13.1-1_arm_new.ipk
+Source: http://ftp.gnu.org/pub/gnu/libiconv/libiconv-1.13.1.tar.gz
+Description: Converts between character encodings.
+
+

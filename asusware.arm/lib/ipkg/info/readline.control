@@ -1,0 +1,10 @@
+Package: readline
+Architecture: arm
+Priority: optional
+Section: misc
+Version: 6.1-2
+Maintainer: NSLU2 Linux <nslu2-linux@yahoogroups.com>
+Source: http://ftp.gnu.org/pub/gnu/readline/readline-6.1.tar.gz
+Description: The GNU Readline library provides a set of functions for use by applications that allow users to edit command lines as they are typed in
+Depends: uclibc-opt, ncurses
+Installed-Size: 765952

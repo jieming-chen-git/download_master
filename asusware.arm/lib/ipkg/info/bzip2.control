@@ -1,0 +1,11 @@
+Package: bzip2
+Architecture: arm
+Priority: optional
+Section: compression
+Version: 1.0.6-2
+Maintainer: Christopher Blunck <christopher.blunck@gmail.com>
+Source: http://www.bzip.org/1.0.6/bzip2-1.0.6.tar.gz
+Description: Very high-quality data compression program
+Depends: uclibc-opt
+Conflicts: 
+Installed-Size: 331776

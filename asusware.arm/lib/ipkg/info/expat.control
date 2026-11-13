@@ -1,0 +1,11 @@
+Package: expat
+Architecture: arm
+Priority: optional
+Section: libraries
+Version: 2.2.0-1
+Maintainer: NSLU2 Linux <nslu2-linux@yahoogroups.com>
+Source: http://downloads.sourceforge.net/sourceforge/expat/expat-2.2.0.tar.bz2
+Description: XML Parser library
+Depends: uclibc-opt
+Conflicts: 
+Installed-Size: 196608

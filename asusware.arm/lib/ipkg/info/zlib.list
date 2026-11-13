@@ -1,0 +1,9 @@
+/opt/include/
+/opt/include/zlib.h
+/opt/include/zconf.h
+/opt/lib/
+/opt/lib/libz.so.1
+/opt/lib/pkgconfig/
+/opt/lib/pkgconfig/zlib.pc
+/opt/lib/libz.so
+/opt/lib/libz.so.1.2.8

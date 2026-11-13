@@ -1,0 +1,13 @@
+/opt/doc/
+/opt/doc/bzip2/
+/opt/doc/bzip2/manual.html
+/opt/include/
+/opt/include/bzlib.h
+/opt/bin/
+/opt/bin/bzcat
+/opt/bin/bzip2recover
+/opt/bin/bzip2-bzip2
+/opt/lib/
+/opt/lib/libbz2.so.1.0.6
+/opt/lib/libbz2.so.1.0
+/opt/lib/libbz2.so

@@ -1,0 +1,12 @@
+Package: ncurses-base
+Architecture: arm
+Priority: optional
+Section: net
+Version: 5.7-8
+Maintainer: Christopher Blunck <christopher.blunck@gmail.com>
+Source: ftp://invisible-island.net/ncurses/ncurses-base_5.7-8_arm.tar.gz
+Description: NCurses libraries
+Depends: 
+Conflicts: 
+
+Installed-Size: 1404928
